@@ -5,17 +5,15 @@
 
 if($_SESSION['emailType'] =="newAccount"){echo "New Account";}  
 
-$_SESSION['name']=$name
-$_SESSION['email']=$email
-$_SESSION['subject']=$subject
-$_SESSION['message']=$message
+
+
 
 ?>
 
 <form method="post" action="send-email.php">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" required>
-        
+        <label for="name">Full Name</label>
+        <input type="text" name="fullname" id="fullname" required>
+
         <label for="email">email</label>
         <input type="email" name="email" id="email" required>
         
@@ -30,8 +28,25 @@ $_SESSION['message']=$message
 		<input type="submit" name="submitbutton" value="Submit">
     </form>
 
-	
+    <?php 
 
+
+
+//if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+
+//$_SESSION['name']=$name;
+//$_SESSION['email']=$email;
+//$_SESSION['subject']=$subject;
+//$_SESSION['message']=$message;
+
+//$name= $_POST['name'];
+//$email= $_POST['email'];
+//$subject= $_POST['subject'];
+//$message= $_POST['message'];
+
+
+?>
 
 
 
