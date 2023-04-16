@@ -3,7 +3,7 @@
 
 
 
-Content (Gif of your choice)
+<img src="computergif.gif" alt="grumpy computer">
 	
 
 

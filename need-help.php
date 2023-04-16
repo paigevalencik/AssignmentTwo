@@ -2,8 +2,7 @@
 
 
 
-
-		Content for CEO, just show a phone number to call
+echo "555-123-4567"
 
 
 <?php require('./headerandfooter/footer.php'); ?>
