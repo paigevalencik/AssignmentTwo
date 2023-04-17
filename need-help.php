@@ -1,8 +1,7 @@
 <?php require('./headerandfooter/header.php'); ?>
 
+<!DOCTYPE html>
 
-
-echo "555-123-4567"
-
+    Help Number: 555-123-4567
 
 <?php require('./headerandfooter/footer.php'); ?>

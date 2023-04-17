@@ -1,27 +1,16 @@
 <?php
 
     session_start ();
-
     require('./headerandfooter/header.php'); 
-
-    session_destroy();
+    session_destroy(); //destroying the session
 ?>
 
 <!DOCTYPE html>
 
-
     <h2> You are logged out </h2>
 
+    <a href="index.php"> Back to homepage</a> <!-- link back to homepage -->
 
-    <a href="index.php"> Back to homepage</a> 
-
-
-
-
-
-
- <?php 
-
+ <?php
     require('./headerandfooter/footer.php'); 
-
  ?>

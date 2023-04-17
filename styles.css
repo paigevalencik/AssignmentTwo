@@ -1,4 +1,16 @@
-style* { margin: 0 auto; font-family: Verdana, Tahoma, sans-serif; }
+style* { margin: 0 auto; font: Verdana; } /* styling fo rwhole site */
+
+
+.logoutbutton /* styling for logout button */
+{position: relative;
+  text-align: right !important;
+font-size:20px;
+top: 20px;}
+
+
+h2 { /* styling for h2 text */
+font-size: 25px;
+  }
 
 
 header { /* styling for header area */
@@ -68,12 +80,6 @@ nav.menu > a { /* styling for the links in the menu */
 .menu_show { /* styling for the drop-down menu */
   left: 0!important;
 }
-
-
-.logoutbutton { /* styling for logout button*/
-text-align: left;
-float: left;
-  }
 
 
 

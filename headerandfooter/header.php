@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 
 
-
 <head>
 
   <meta charset="utf-8">
@@ -14,7 +13,6 @@
   <link rel="stylesheet" href="styles.css">  <!--my own css stylesheet-->
 
 </head>
-
 
 
 <header>
@@ -29,18 +27,12 @@
 </header>
 
 
-
-<div>
-
-    <a href="logout.php" class="logoutbutton">Logout</a> <!--logout button-->
-
+<div class="logoutbutton">
+    <a href="logout.php">Logout</a> <!--logout button-->
 </div>
 
 
-
-
 <br>
-
 
 
 <nav class="menu"> <!-- the navigation menu, links to the pages-->
