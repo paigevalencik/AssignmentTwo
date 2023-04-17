@@ -1,10 +1,10 @@
 
+<!DOCTYPE html>
 
 
-
-<div>
 
 <head>
+
   <meta charset="utf-8">
   <title>Halifax Canoe and Kayak</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,8 +13,9 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--the stylesheet for my navigation menu-->
   <link rel="stylesheet" href="styles.css">  <!--my own css stylesheet-->
 
-
 </head>
+
+
 
 <header>
   
@@ -28,9 +29,19 @@
 </header>
 
 
-<a href="logout.php" class="rightSide paddingRightOnly">Logout</a>
+
+<div>
+
+    <a href="logout.php" class="logoutbutton">Logout</a> <!--logout button-->
+
+</div>
+
+
+
 
 <br>
+
+
 
 <nav class="menu"> <!-- the navigation menu, links to the pages-->
     <a href="home.html" class="item_menu">Home</a>
@@ -39,7 +50,5 @@
 </nav>
 
 
-             
-</div>
 
 

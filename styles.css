@@ -1,5 +1,4 @@
-style* { margin: 0 auto; font-family: sans-serif; }
-
+style* { margin: 0 auto; font-family: Verdana, Tahoma, sans-serif; }
 
 
 header { /* styling for header area */
@@ -71,14 +70,10 @@ nav.menu > a { /* styling for the links in the menu */
 }
 
 
-
-
-
-
-
-
-
-
+.logoutbutton { /* styling for logout button*/
+text-align: left;
+float: left;
+  }
 
 
 
